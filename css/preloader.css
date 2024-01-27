@@ -167,9 +167,6 @@
   transition: 0.3s ease-out;
 }
 
-.handle-preloader .animation-preloader .txt-loading .letters-loading {
-}
-
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before {
   color: #ffffff;
 }
@@ -212,7 +209,7 @@
     width: 7em;
   }
   .handle-preloader .animation-preloader .txt-loading .letters-loading {
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 10px;
   }
 }
