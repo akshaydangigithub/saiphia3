@@ -22,6 +22,26 @@
 
 ***/
 
+.download_bro {
+  height: 250px;
+  cursor: pointer;
+  width: 50px;
+  background: #FA4318;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  z-index: 999;
+
+  > h6 {
+  color: white !important;
+    display: inline-block;
+    transform: rotate(-90deg);
+    word-spacing: 7px;
+  }
+}
+
 .main-header {
   position: relative;
   z-index: 999;
@@ -12042,7 +12062,6 @@
   font-weight: 500;
 }
 
-
 @media (max-width: 768px) {
   .accordion {
     flex-direction: column;
@@ -12051,7 +12070,7 @@
     width: 100% !important;
     margin-bottom: 10px !important;
   }
-  .main-slider .slide:before{
+  .main-slider .slide:before {
     display: none !important;
   }
 }
