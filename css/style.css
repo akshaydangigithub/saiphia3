@@ -397,7 +397,7 @@
 .main-header .header-lower:before {
   position: absolute;
   content: "";
-  left: 50%;
+  left: 65%;
   bottom: 0px;
   right: 0px;
   top: 0px;
