@@ -1,271 +1,236 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Saiphia Casting</title>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>Saiphia Casting</title>
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/Gellary.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-  </head>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
-  <style>
-    /* Add your custom styles here */
-    .floating-whatsapp-button {
-      height: 60px;
-      width: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: fixed;
-      bottom: 100px;
-      right: 20px;
-      background-color: #25d366;
-      color: #fff;
-      padding: 10px;
-      border-radius: 50%;
-      cursor: pointer !important;
-      z-index: 9999;
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
 
-      .fa-whatsapp {
-        font-size: 30px;
-      }
+<style>
+  /* Add your custom styles here */
+  .floating-whatsapp-button {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer !important;
+    z-index: 9999;
+
+    .fa-whatsapp {
+      font-size: 30px;
     }
-  </style>
-  <body>
-    <!-- Floating WhatsApp Button -->
-    <a href="whatsapp://send?phone=8435119144" class="floating-whatsapp-button">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-    <div
-      class="download_bro d-flex align-items-center justify-content-center"
-    >
-      <h6 class="m-0 fw-semibold">Download Our brochure</h6>
-    </div>
+  }
+</style>
 
-    <div class="cursor"></div>
+<body>
+  <!-- Floating WhatsApp Button -->
+  <a href="whatsapp://send?phone=8435119144" class="floating-whatsapp-button">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <div class="download_bro d-flex align-items-center justify-content-center">
+    <h6 class="m-0 fw-semibold">Download Our brochure</h6>
+  </div>
 
-    <div class="page-wrapper">
-      <!-- Preloader -->
-      <div class="loader-wrap">
-        <div class="preloader">
-          <div class="preloader-close">x</div>
-          <div id="handle-preloader" class="handle-preloader">
-            <div class="animation-preloader">
-              <div class="spinner"></div>
-              <div class="txt-loading">
-                <span data-text-preloader="S" class="letters-loading"> S </span>
-                <span data-text-preloader="A" class="letters-loading"> A </span>
-                <span data-text-preloader="I" class="letters-loading"> I </span>
-                <span data-text-preloader="P" class="letters-loading"> P </span>
-                <span data-text-preloader="H" class="letters-loading"> H </span>
-                <span data-text-preloader="I" class="letters-loading"> I </span>
-                <span data-text-preloader="A" class="letters-loading"> A </span>
-                &nbsp;
-                <span data-text-preloader="C" class="letters-loading"> C </span>
-                <span data-text-preloader="A" class="letters-loading"> A </span>
-                <span data-text-preloader="S" class="letters-loading"> S </span>
-                <span data-text-preloader="T" class="letters-loading"> T </span>
-                <span data-text-preloader="I" class="letters-loading"> I </span>
-                <span data-text-preloader="N" class="letters-loading"> N </span>
-                <span data-text-preloader="G" class="letters-loading">G </span>
-              </div>
+  <div class="cursor"></div>
+
+  <div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="loader-wrap">
+      <div class="preloader">
+        <div class="preloader-close">x</div>
+        <div id="handle-preloader" class="handle-preloader">
+          <div class="animation-preloader">
+            <div class="spinner"></div>
+            <div class="txt-loading">
+              <span data-text-preloader="S" class="letters-loading"> S </span>
+              <span data-text-preloader="A" class="letters-loading"> A </span>
+              <span data-text-preloader="I" class="letters-loading"> I </span>
+              <span data-text-preloader="P" class="letters-loading"> P </span>
+              <span data-text-preloader="H" class="letters-loading"> H </span>
+              <span data-text-preloader="I" class="letters-loading"> I </span>
+              <span data-text-preloader="A" class="letters-loading"> A </span>
+              &nbsp;
+              <span data-text-preloader="C" class="letters-loading"> C </span>
+              <span data-text-preloader="A" class="letters-loading"> A </span>
+              <span data-text-preloader="S" class="letters-loading"> S </span>
+              <span data-text-preloader="T" class="letters-loading"> T </span>
+              <span data-text-preloader="I" class="letters-loading"> I </span>
+              <span data-text-preloader="N" class="letters-loading"> N </span>
+              <span data-text-preloader="G" class="letters-loading">G </span>
             </div>
           </div>
         </div>
       </div>
-      <!-- Preloader End -->
+    </div>
+    <!-- Preloader End -->
 
-      <!-- Vertical Lines Start -->
-      <div class="vertical-lines-wrapper">
-        <div class="vertical-lines">
-          <div class="vertical-effect"></div>
-          <div class="vertical-effect"></div>
-          <div class="vertical-effect"></div>
-          <div class="vertical-effect"></div>
-          <div class="vertical-effect"></div>
-          <div class="vertical-effect"></div>
-        </div>
+    <!-- Vertical Lines Start -->
+    <div class="vertical-lines-wrapper">
+      <div class="vertical-lines">
+        <div class="vertical-effect"></div>
+        <div class="vertical-effect"></div>
+        <div class="vertical-effect"></div>
+        <div class="vertical-effect"></div>
+        <div class="vertical-effect"></div>
+        <div class="vertical-effect"></div>
       </div>
-      <!-- End Vertical Lines Start -->
+    </div>
+    <!-- End Vertical Lines Start -->
 
-      <!-- scrollToTop start -->
-      <div class="progress-wrap active-progress">
-        <svg
-          class="progress-circle svg-content"
-          width="100%"
-          height="100%"
-          viewBox="-1 -1 102 102"
-        >
-          <path
-            d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-            style="
+    <!-- scrollToTop start -->
+    <div class="progress-wrap active-progress">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
               transition: stroke-dashoffset 10ms linear 0s;
               stroke-dasharray: 307.919px, 307.919px;
               stroke-dashoffset: 228.265px;
-            "
-          ></path>
-        </svg>
-      </div>
-      <!-- scrollToTop end -->
+            "></path>
+      </svg>
+    </div>
+    <!-- scrollToTop end -->
 
-      <!-- Main Header-->
-      <header class="main-header">
-        <!-- Header Top -->
-        <div class="header-top">
-          <div class="auto-container">
-            <div class="clearfix">
-              <!-- Top Left -->
-              <div class="top-left">
-                <div class="text">
-                  Welcome to our <a href="#">Saiphia Casting </a>
-                </div>
+    <!-- Main Header-->
+    <header class="main-header">
+      <!-- Header Top -->
+      <div class="header-top">
+        <div class="auto-container">
+          <div class="clearfix">
+            <!-- Top Left -->
+            <div class="top-left">
+              <div class="text">
+                Welcome to our <a href="#">Saiphia Casting </a>
               </div>
+            </div>
 
-              <!-- Top Right -->
-              <div class="top-right pull-right">
-                <div class="clock">We'are Open: Mon - Sat 8:00 - 18:00</div>
-                <div class="social-box">
-                  <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-twitter"></a>
-                  <a href="#" class="fa fa-dribbble"></a>
-                  <a href="#" class="fa fa-behance"></a>
-                </div>
+            <!-- Top Right -->
+            <div class="top-right pull-right">
+              <div class="clock">We'are Open: Mon - Sat 8:00 - 18:00</div>
+              <div class="social-box">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-dribbble"></a>
+                <a href="#" class="fa fa-behance"></a>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Header Upper -->
-        <div class="header-upper">
-          <div class="auto-container">
-            <div class="clearfix">
-              <div class="pull-left logo-box">
-                <div class="logo d-flex gap-3">
-                  <!-- <a href="index.html"><img src="images/logo.png" alt="" title=""></a> -->
-                  <img
-                    style="
+      <!-- Header Upper -->
+      <div class="header-upper">
+        <div class="auto-container">
+          <div class="clearfix">
+            <div class="pull-left logo-box">
+              <div class="logo d-flex gap-3">
+                <!-- <a href="index.html"><img src="images/logo.png" alt="" title=""></a> -->
+                <img style="
                       height: 55px;
                       width: 55px;
                       margin-right: 10px !important;
-                    "
-                    class="mt-2"
-                    src="./images/logo.png"
-                    alt=""
-                  />
-                  <a href="index.html" class="ms-2">
-                    <h3>Saiphia Casting</h3>
-                    <p>Our equipment, services & system for you</p>
-                  </a>
+                    " class="mt-2" src="./images/logo.png" alt="" />
+                <a href="index.html" class="ms-2">
+                  <h3>Saiphia Casting</h3>
+                  <p>Our equipment, services & system for you</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="pull-right upper-right clearfix">
+              <!--Info Box-->
+              <div class="upper-column info-box">
+                <div class="icon-box">
+                  <span class="flaticon-telephone"></span>
                 </div>
+                <ul>
+                  <li><strong>Call Us for help!</strong></li>
+                  <li>+9184351 19144</li>
+                </ul>
               </div>
 
-              <div class="pull-right upper-right clearfix">
-                <!--Info Box-->
-                <div class="upper-column info-box">
-                  <div class="icon-box">
-                    <span class="flaticon-telephone"></span>
-                  </div>
-                  <ul>
-                    <li><strong>Call Us for help!</strong></li>
-                    <li>+9184351 19144</li>
-                  </ul>
+              <!--Info Box-->
+              <div class="upper-column info-box">
+                <div class="icon-box">
+                  <span class="flaticon-placeholder"></span>
                 </div>
+                <ul>
+                  <li><strong>+9184351 19144</strong></li>
+                  <li>Bhopal , Madhya Pradesh</li>
+                </ul>
+              </div>
 
-                <!--Info Box-->
-                <div class="upper-column info-box">
-                  <div class="icon-box">
-                    <span class="flaticon-placeholder"></span>
-                  </div>
-                  <ul>
-                    <li><strong>+9184351 19144</strong></li>
-                    <li>Bhopal , Madhya Pradesh</li>
-                  </ul>
+              <!--Info Box-->
+              <div class="upper-column info-box">
+                <div class="icon-box">
+                  <span class="flaticon-message"></span>
                 </div>
-
-                <!--Info Box-->
-                <div class="upper-column info-box">
-                  <div class="icon-box">
-                    <span class="flaticon-message"></span>
-                  </div>
-                  <ul>
-                    <li><strong>Mail Us</strong></li>
-                    <li>saiphia@gmail.com</li>
-                  </ul>
-                </div>
+                <ul>
+                  <li><strong>Mail Us</strong></li>
+                  <li>saiphia@gmail.com</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <!-- End Header Upper -->
+      </div>
+      <!-- End Header Upper -->
 
-        <!-- Header Upper -->
-        <div class="header-lower">
-          <div class="auto-container">
-            <div class="inner-container clearfix">
-              <div class="nav-outer">
-                <!-- Mobile Navigation Toggler -->
-                <div class="mobile-nav-toggler">
-                  <span class="icon flaticon-menu-3"></span>
+      <!-- Header Upper -->
+      <div class="header-lower">
+        <div class="auto-container">
+          <div class="inner-container clearfix">
+            <div class="nav-outer">
+              <!-- Mobile Navigation Toggler -->
+              <div class="mobile-nav-toggler">
+                <span class="icon flaticon-menu-3"></span>
+              </div>
+              <!-- Main Menu -->
+              <nav class="main-menu navbar-expand-md">
+                <div class="navbar-header">
+                  <!-- Toggle Button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
                 </div>
-                <!-- Main Menu -->
-                <nav class="main-menu navbar-expand-md">
-                  <div class="navbar-header">
-                    <!-- Toggle Button -->
-                    <button
-                      class="navbar-toggler"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#navbarSupportedContent"
-                      aria-controls="navbarSupportedContent"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                  </div>
 
-                  <div
-                    class="navbar-collapse collapse clearfix"
-                    id="navbarSupportedContent"
-                  >
-                    <ul class="navigation clearfix">
-                      <li>
-                        <a href="#">Home</a>
-                        <!-- <ul>
+                <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                  <ul class="navigation clearfix">
+                    <li>
+                      <a href="#">Home</a>
+                      <!-- <ul>
                           <li><a href="index.html">Homepage One</a></li>
                           <li><a href="index-2.html">Homepage Two</a></li>
                           <li><a href="index-3.html">Homepage Three</a></li>
@@ -282,19 +247,19 @@
                             </ul>
                           </li>
                         </ul> -->
-                      </li>
-                      <li>
-                        <a href="./about.html">About</a>
-                        <!-- <ul>
+                    </li>
+                    <li>
+                      <a href="./about.html">About</a>
+                      <!-- <ul>
                           <li><a href="./about.html">About us</a></li>
                           <li><a href="#">Faq's</a></li>
                           <li><a href="#">Team</a></li>
                           <li><a href="#">Team Detail</a></li>
                         </ul> -->
-                      </li>
-                      <li>
-                        <a href="./services.html">Services</a>
-                        <!-- <ul>
+                    </li>
+                    <li>
+                      <a href="./services.html">Services</a>
+                      <!-- <ul>
                           <li><a href="#">Services</a></li>
                           <li><a href="#">Oil & Gas</a></li>
                           <li>
@@ -316,91 +281,81 @@
                             <a href="#">Civil Engineering</a>
                           </li>
                         </ul> -->
-                      </li>
+                    </li>
 
-                      <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                  </div>
-                </nav>
-
-                <!-- Main Menu End-->
-                <div class="outer-box clearfix">
-                  <!-- Search Btn -->
-                  <div class="search-box-btn search-box-outer">
-                    <span class="icon flaticon-loupe"></span>
-                  </div>
+                    <li><a href="./contact.html">Contact</a></li>
+                  </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--End Header Upper-->
-
-        <!-- Sticky Header  -->
-        <div class="sticky-header">
-          <div class="auto-container clearfix">
-            <!--Logo-->
-            <div class="logo pull-left">
-              <a href="index.html" title=""
-                ><img
-                  src="images/logo.png"
-                  style="height: 60px; width: 60px"
-                  alt=""
-                  title=""
-              /></a>
-            </div>
-            <!--Right Col-->
-            <div class="pull-right">
-              <!-- Main Menu -->
-              <nav class="main-menu">
-                <!--Keep This Empty / Menu will come through Javascript-->
               </nav>
+
               <!-- Main Menu End-->
-
-              <!-- Mobile Navigation Toggler -->
-              <div class="mobile-nav-toggler">
-                <span class="icon flaticon-menu-3"></span>
+              <div class="outer-box clearfix">
+                <!-- Search Btn -->
+                <div class="search-box-btn search-box-outer">
+                  <span class="icon flaticon-loupe"></span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- End Sticky Menu -->
+      </div>
+      <!--End Header Upper-->
 
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-          <div class="menu-backdrop"></div>
-          <div class="close-btn"><span class="icon fa fa-close"></span></div>
+      <!-- Sticky Header  -->
+      <div class="sticky-header">
+        <div class="auto-container clearfix">
+          <!--Logo-->
+          <div class="logo pull-left">
+            <a href="index.html" title=""><img src="images/logo.png" style="height: 60px; width: 60px" alt=""
+                title="" /></a>
+          </div>
+          <!--Right Col-->
+          <div class="pull-right">
+            <!-- Main Menu -->
+            <nav class="main-menu">
+              <!--Keep This Empty / Menu will come through Javascript-->
+            </nav>
+            <!-- Main Menu End-->
 
-          <nav class="menu-box">
-            <div class="nav-logo">
-              <a href="index.html"
-                ><img src="images/logo.png" alt="" title=""
-              /></a>
+            <!-- Mobile Navigation Toggler -->
+            <div class="mobile-nav-toggler">
+              <span class="icon flaticon-menu-3"></span>
             </div>
-            <div class="menu-outer">
-              <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-            </div>
-          </nav>
+          </div>
         </div>
-        <!-- End Mobile Menu -->
-      </header>
-      <!-- End Main Header -->
+      </div>
+      <!-- End Sticky Menu -->
 
-      <!-- Main Slider Section -->
-      <section class="main-slider">
-        <div class="main-slider-carousel owl-theme owl-carousel">
-          <!-- Slide 01 -->
-          <div class="slide">
-            <div
-              class="image-layer"
-              style="
+      <!-- Mobile Menu  -->
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><span class="icon fa fa-close"></span></div>
+
+        <nav class="menu-box">
+          <div class="nav-logo">
+            <a href="index.html"><img src="images/logo.png" alt="" title="" /></a>
+          </div>
+          <div class="menu-outer">
+            <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+          </div>
+        </nav>
+      </div>
+      <!-- End Mobile Menu -->
+    </header>
+    <!-- End Main Header -->
+
+    <!-- Main Slider Section -->
+    <section class="main-slider">
+      <div class="main-slider-carousel owl-theme owl-carousel">
+        <!-- Slide 01 -->
+        <div class="slide">
+          <div class="image-layer" style="
                 background-image: url(images/s1.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
-              "
-            ></div>
-            <!-- <div
+              "></div>
+          <!-- <div
               class="pattern-layer"
               style="
                 background-image: url(images/s2.jpg);
@@ -418,337 +373,275 @@
                 background-position: center center;
               "
             ></div> -->
-            <div class="auto-container">
-              <!-- Content Column -->
-              <div class="content-column">
-                <div class="inner-column">
-                  <h1>
-                    The Sahiphia Casting <br />
-                    Bhopal, Madhya Pradesh
-                  </h1>
-                  <div class="text">
-                    We specialize and pride ourselves in providing the highest
-                    quality services from start to finish.
-                  </div>
-                  <div class="button-box">
-                    <a class="btn-style-one theme-btn" href="#"
-                      ><span class="txt"
-                        >Our Services
-                        <i class="arrow fa fa-angle-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Slide 01 -->
-
-          <!-- Slide 02 -->
-          <div class="slide">
-            <div
-              class="image-layer"
-              style="
-                background-image: url(images/s2.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-              "
-            ></div>
-            <!-- <div
-              class="pattern-layer"
-              style="
-                background-image: url(images/s3.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-              "
-            ></div>
-            <div
-              class="pattern-layer-two"
-              style="
-                background-image: url(images/s2.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-              "
-            ></div> -->
-            <div class="auto-container">
-              <!-- Content Column -->
-              <div class="content-column">
-                <div class="inner-column">
-                  <h1>
-                    The Sahiphia Casting <br />
-                    Bhopal, Madhya Pradesh
-                  </h1>
-                  <div class="text">
-                    We specialize and pride ourselves in providing the highest
-                    quality services from start to finish.
-                  </div>
-                  <div class="button-box">
-                    <a class="btn-style-one theme-btn" href="#"
-                      ><span class="txt"
-                        >Our Services
-                        <i class="arrow fa fa-angle-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Slide 02 -->
-
-          <!-- Slide 03 -->
-          <div class="slide">
-            <div
-              class="image-layer"
-              style="
-                background-image: url(images/s3.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-              "
-            ></div>
-            <!-- <div
-              class="pattern-layer"
-              style="
-                background-image: url(images/s2.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-              "
-            ></div>
-            <div
-              class="pattern-layer-two"
-              style="
-                background-image: url(images/s1.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-              "
-            ></div> -->
-            <div class="auto-container">
-              <!-- Content Column -->
-              <div class="content-column">
-                <div class="inner-column">
-                  <h1>
-                    The Sahiphia Casting <br />
-                    Bhopal, Madhya Pradesh
-                  </h1>
-                  <div class="text">
-                    We specialize and pride ourselves in providing the highest
-                    quality services from start to finish.
-                  </div>
-                  <div class="button-box">
-                    <a class="btn-style-one theme-btn" href="#"
-                      ><span class="txt"
-                        >Our Services
-                        <i class="arrow fa fa-angle-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Slide 03 -->
-        </div>
-      </section>
-      <!-- End Main Slider Section -->
-
-      <!-- Service Section -->
-      <section class="service-section">
-        <div class="auto-container">
-          <div class="inner-container">
-            <div class="row clearfix">
-              <!-- Service Block -->
-              <div class="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  class="inner-box wow fadeInLeft"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                  style="height: 100%"
-                >
-                  <div
-                    class="shape-one"
-                    style="background-image: url(images/icons/shape-1.png)"
-                  ></div>
-                  <div
-                    class="shape-two"
-                    style="background-image: url(images/icons/shape-2.png)"
-                  ></div>
-                  <div
-                    class="image-layer"
-                    style="
-                      background-image: url('https://saiphia.com/wp-content/uploads/2020/05/engineering-collage.png');
-                    "
-                  ></div>
-                  <div class="icon flaticon-factory"></div>
-                  <h5>
-                    <a class="#" href="#">Product Design Assistance</a>
-                  </h5>
-                  <div class="text">
-                    Manufacturing industry became a key sector of production and
-                    labour into the European and North America.
-                  </div>
-                  <a class="read-more" href="#"
-                    >Read More <span class="flaticon-right-arrow"></span
-                  ></a>
-                </div>
-              </div>
-
-              <!-- Service Block -->
-              <div class="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  class="inner-box wow fadeInUp"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                  style="height: 100%"
-                >
-                  <div
-                    class="shape-one"
-                    style="background-image: url(images/icons/shape-1.png)"
-                  ></div>
-                  <div
-                    class="shape-two"
-                    style="background-image: url(images/icons/shape-2.png)"
-                  ></div>
-                  <div
-                    class="image-layer"
-                    style="
-                      background-image: url('https://saiphia.com/wp-content/uploads/2020/05/casting-768x480.jpg');
-                    "
-                  ></div>
-                  <div class="icon flaticon-fuel-pump"></div>
-                  <h5>
-                    <a class="#" href="#">Sand Casting</a>
-                  </h5>
-                  <div class="text">
-                    Manufacturing industry became a key sector of production and
-                    labour into the European and North America.
-                  </div>
-                  <a class="read-more" href="#"
-                    >Read More <span class="flaticon-right-arrow"></span
-                  ></a>
-                </div>
-              </div>
-
-              <!-- Service Block -->
-              <div class="service-block col-lg-4 col-md-6 col-sm-12">
-                <div
-                  class="inner-box wow fadeInRight"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                  style="height: 100%"
-                >
-                  <div
-                    class="shape-one"
-                    style="background-image: url(images/icons/shape-1.png)"
-                  ></div>
-                  <div
-                    class="shape-two"
-                    style="background-image: url(images/icons/shape-2.png)"
-                  ></div>
-                  <div
-                    class="image-layer"
-                    style="
-                      background-image: url('https://saiphia.com/wp-content/uploads/2020/05/factory-768x512.jpg');
-                    "
-                  ></div>
-                  <div class="icon flaticon-test"></div>
-                  <h5>
-                    <a class="#" href="#">Investment Casting</a>
-                  </h5>
-                  <div class="text">
-                    Manufacturing industry became a key sector of production and
-                    labour into the European and North America.
-                  </div>
-                  <a class="read-more" href="#"
-                    >Read More <span class="flaticon-right-arrow"></span
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Service Section -->
-
-      <!-- About Section -->
-      <section class="about-section">
-        <div class="auto-container">
-          <div class="row clearfix">
+          <div class="auto-container">
             <!-- Content Column -->
-            <div class="content-column col-lg-7 col-md-12 col-sm-12">
+            <div class="content-column">
               <div class="inner-column">
-                <div class="sec-title">
-                  <div class="big-text">Assessments</div>
-                  <div class="title">About our Company</div>
-                  <h2>Building a more competitive business sectors.</h2>
-                  <div class="text">
-                    Saiphia Group is one of the fastest growing company in India
-                    & abroad providing Engineering and equipment manufacturing
-                    Services for Cement, Mining, Casting, Manufacturing, Bionics
-                    (Bio-mechanical), Power and Aerospace Engineering sectors
-                  </div>
+                <h1>
+                  The Sahiphia Casting <br />
+                  Bhopal, Madhya Pradesh
+                </h1>
+                <div class="text">
+                  From Sand to Precision: Quality Casting and Design Assistance. We shape your ideas
+                  with expertise, turning them into exceptional products through sand casting, investment
+                  casting, and dedicated support.
                 </div>
-                <div class="row clearfix">
-                  <!-- Feature Block -->
-                  <div class="feature-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                      <span class="icon flaticon-engineer"></span>
-                      <h5>Strengthening society</h5>
-                    </div>
-                  </div>
+                <div class="button-box">
+                  <a class="btn-style-one theme-btn" href="#"><span class="txt">Our Services
+                      <i class="arrow fa fa-angle-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Slide 01 -->
 
-                  <!-- Feature Block -->
-                  <div class="feature-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                      <span class="icon flaticon-customer-support"></span>
-                      <h5>Driving the economy</h5>
-                    </div>
+        <!-- Slide 02 -->
+        <div class="slide">
+          <div class="image-layer" style="
+                background-image: url(images/s2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              "></div>
+          <!-- <div
+              class="pattern-layer"
+              style="
+                background-image: url(images/s3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              "
+            ></div>
+            <div
+              class="pattern-layer-two"
+              style="
+                background-image: url(images/s2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              "
+            ></div> -->
+          <div class="auto-container">
+            <!-- Content Column -->
+            <div class="content-column">
+              <div class="inner-column">
+                <h1>
+                  The Sahiphia Casting <br />
+                  Bhopal, Madhya Pradesh
+                </h1>
+                <div class="text">
+                  Transforming Ideas into Exceptional Products: Expert Casting and Design Support. We shape your vision
+                  with precision, crafting outstanding products using sand casting, investment casting, and unwavering
+                  assistance.
+                </div>
+                <div class="button-box">
+                  <a class="btn-style-one theme-btn" href="#"><span class="txt">Our Services
+                      <i class="arrow fa fa-angle-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Slide 02 -->
+
+        <!-- Slide 03 -->
+        <div class="slide">
+          <div class="image-layer" style="
+                background-image: url(images/s3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              "></div>
+          <!-- <div
+              class="pattern-layer"
+              style="
+                background-image: url(images/s2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              "
+            ></div>
+            <div
+              class="pattern-layer-two"
+              style="
+                background-image: url(images/s1.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+              "
+            ></div> -->
+          <div class="auto-container">
+            <!-- Content Column -->
+            <div class="content-column">
+              <div class="inner-column">
+                <h1>
+                  The Sahiphia Casting <br />
+                  Bhopal, Madhya Pradesh
+                </h1>
+                <div class="text">
+                  Crafting Excellence: Quality Casting and Design Support. We bring your concepts to life with
+                  expertise, utilizing sand casting, investment casting, and dedicated guidance.
+                </div>
+                <div class="button-box">
+                  <a class="btn-style-one theme-btn" href="#"><span class="txt">Our Services
+                      <i class="arrow fa fa-angle-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Slide 03 -->
+      </div>
+    </section>
+    <!-- End Main Slider Section -->
+
+    <!-- Service Section -->
+    <section class="service-section">
+      <div class="auto-container">
+        <div class="inner-container">
+          <div class="row clearfix">
+            <!-- Service Block -->
+            <div class="service-block col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
+                style="height: 100%">
+                <div class="shape-one" style="background-image: url(images/icons/shape-1.png)"></div>
+                <div class="shape-two" style="background-image: url(images/icons/shape-2.png)"></div>
+                <div class="image-layer" style="
+                      background-image: url('https://saiphia.com/wp-content/uploads/2020/05/engineering-collage.png');
+                    "></div>
+                <div class="icon flaticon-factory"></div>
+                <h5>
+                  <a class="#" href="#">Product Design Assistance</a>
+                </h5>
+                <div class="text">
+                  Manufacturing industry became a key sector of production and
+                  labour into the European and North America.
+                </div>
+                <a class="read-more" href="#">Contact Us <span class="flaticon-right-arrow"></span></a>
+              </div>
+            </div>
+
+            <!-- Service Block -->
+            <div class="service-block col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" style="height: 100%">
+                <div class="shape-one" style="background-image: url(images/icons/shape-1.png)"></div>
+                <div class="shape-two" style="background-image: url(images/icons/shape-2.png)"></div>
+                <div class="image-layer" style="
+                      background-image: url('https://saiphia.com/wp-content/uploads/2020/05/casting-768x480.jpg');
+                    "></div>
+                <div class="icon flaticon-fuel-pump"></div>
+                <h5>
+                  <a class="#" href="#">Sand Casting</a>
+                </h5>
+                <div class="text">
+                  Manufacturing industry became a key sector of production and
+                  labour into the European and North America.
+                </div>
+                <a class="read-more" href="#">Contact Us <span class="flaticon-right-arrow"></span></a>
+              </div>
+            </div>
+
+            <!-- Service Block -->
+            <div class="service-block col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
+                style="height: 100%">
+                <div class="shape-one" style="background-image: url(images/icons/shape-1.png)"></div>
+                <div class="shape-two" style="background-image: url(images/icons/shape-2.png)"></div>
+                <div class="image-layer" style="
+                      background-image: url('https://saiphia.com/wp-content/uploads/2020/05/factory-768x512.jpg');
+                    "></div>
+                <div class="icon flaticon-test"></div>
+                <h5>
+                  <a class="#" href="#">Investment Casting</a>
+                </h5>
+                <div class="text">
+                  Manufacturing industry became a key sector of production and
+                  labour into the European and North America.
+                </div>
+                <a class="read-more" href="#">Contact Us <span class="flaticon-right-arrow"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="auto-container">
+        <div class="row clearfix">
+          <!-- Content Column -->
+          <div class="content-column col-lg-7 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="sec-title">
+                <div class="big-text">Assessments</div>
+                <div class="title">About our Company</div>
+                <h2>Where Precision Meets Quality, Crafting Excellence in Every Cast.</h2>
+                <div class="text">
+                  At Saiphia Casting, we specialize in producing precision ferrous and non-ferrous
+                  castings, ranging from 25 gms to 450 Kg pieces. Our expertise extends to both sand
+                  and lost wax technology, guaranteeing the highest quality. With a state-of-the-art QC lab
+                  featuring comprehensive testing facilities and a heat treatment furnace equipped for
+                  carburizing, we ensure excellence at every step.
+                </div>
+              </div>
+              <div class="row clearfix">
+                <!-- Feature Block -->
+                <div class="feature-block col-lg-6 col-md-6 col-sm-12">
+                  <div class="inner-box">
+                    <span class="icon flaticon-engineer"></span>
+                    <h5>Strengthening society</h5>
                   </div>
                 </div>
-                <!-- Lower Box -->
-                <div class="lower-box clearfix">
-                  <div class="button-box">
-                    <a class="btn-style-one theme-btn" href="#"
-                      ><span class="txt"
-                        >About us <i class="arrow fa fa-angle-right"></i></span
-                    ></a>
+
+                <!-- Feature Block -->
+                <div class="feature-block col-lg-6 col-md-6 col-sm-12">
+                  <div class="inner-box">
+                    <span class="icon flaticon-customer-support"></span>
+                    <h5>Driving the economy</h5>
                   </div>
-                  <div class="phone-box">
-                    <div class="box-inner">
-                      <span class="icon flaticon-telephone"></span>
-                      Call us for help
-                      <strong>+9184351 19144</strong>
-                    </div>
+                </div>
+              </div>
+              <!-- Lower Box -->
+              <div class="lower-box clearfix">
+                <div class="button-box">
+                  <a class="btn-style-one theme-btn" href="#"><span class="txt">About us <i
+                        class="arrow fa fa-angle-right"></i></span></a>
+                </div>
+                <div class="phone-box">
+                  <div class="box-inner">
+                    <span class="icon flaticon-telephone"></span>
+                    Call us for help
+                    <strong>+9184351 19144</strong>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- Image Column -->
-            <div class="image-column col-lg-5 col-md-12 col-sm-12">
-              <div class="inner-column">
-                <!-- Counter Box -->
-                <div class="counter-box">
-                  <div class="row clearfix">
-                    <!-- Counter Column -->
-                    <div class="counter-column col-lg-6 col-md-6 col-sm-12">
-                      <h2><span class="odometer" data-count="3010"></span>+</h2>
-                      <div class="counter-text">Satisfied Clients</div>
-                    </div>
-                    <!-- Counter Column -->
-                    <div class="counter-column col-lg-6 col-md-6 col-sm-12">
-                      <h2><span class="odometer" data-count="528"></span>+</h2>
-                      <div class="counter-text">Active Projects</div>
-                    </div>
+          <!-- Image Column -->
+          <div class="image-column col-lg-5 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <!-- Counter Box -->
+              <div class="counter-box">
+                <div class="row clearfix">
+                  <!-- Counter Column -->
+                  <div class="counter-column col-lg-6 col-md-6 col-sm-12">
+                    <h2><span class="odometer" data-count="3010"></span>+</h2>
+                    <div class="counter-text">Satisfied Clients</div>
+                  </div>
+                  <!-- Counter Column -->
+                  <div class="counter-column col-lg-6 col-md-6 col-sm-12">
+                    <h2><span class="odometer" data-count="528"></span>+</h2>
+                    <div class="counter-text">Active Projects</div>
                   </div>
                 </div>
-                <div class="image">
-                  <img src="images/s1.jpg" alt="" />
-                  <div
-                    class="circle-layer"
-                    style="
+              </div>
+              <div class="image">
+                <img src="images/s1.jpg" alt="" />
+                <div class="circle-layer" style="
                       background-image: url(images/ring.jpg);
                       height: 180px;
                       width: 180px;
@@ -756,166 +649,313 @@
                       background-position: center;
                       margin-left: 12px;
                       background-size: cover;
-                    "
-                  ></div>
-                  <span class="gear-icon-one flaticon-gear"></span>
-                  <span class="gear-icon-two flaticon-gear"></span>
-                </div>
+                    "></div>
+                <span class="gear-icon-one flaticon-gear"></span>
+                <span class="gear-icon-two flaticon-gear"></span>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Gallery Section -->
+
+    <section class="gallery-section">
+      <div class="sec-title alternate centered" style="margin-bottom: -1%;">
+        <div class="title">Our Gallery</div>
+        <h2>
+          Explore Inspiration, Captured: <br> Our Gallery Awaits Your Imagination.
+        </h2>
+      </div>
+
+      <section class="portfolio-section" id="portfolio">
+        <div class="container-fluid">
+          <!-- <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2>Project Gallery</h2>
+              <p>Use all the same size pictures :)</p>
+            </div>
+          </div> -->
+          <!-- <div class="portfolio-menu mt-2 mb-4">
+            <nav class="controls">
+              <button type="button" class="control outline" data-filter="all">All</button>
+              <button type="button" class="control outline" data-filter=".web">Web Design</button>
+              <button type="button" class="control outline" data-filter=".dev">Development</button>
+              <button type="button" class="control outline" data-filter=".wp">WordPress</button>
+            </nav>
+          </div> -->
+          <ul class="row portfolio-item">
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-1.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-2.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-3.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-4.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-5.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-6.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-7.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
+              <img src="./images//g-img-3.jpeg" itemprop="thumbnail" alt="Image description" />
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <p class="category">Project Name</p>
+                  <a href="#" title="View Project" target="_blank">
+                    <div class="magnify-icon">
+                      <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <!-- End About Section -->
+      <!-- <ul class="accordion">
+        <li class="accordion__item">
+          <img class="accordion__image" src="images/s1.jpg" alt="" />
+          <div class="accordion__overlay">
+            <h2 class="accordion__title">group</h2>
+            <p class="accordion__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <img class="accordion__image" src="https://saiphia.com/wp-content/uploads/2020/05/factory.jpg" alt="" />
+          <div class="accordion__overlay">
+            <h2 class="accordion__title">casting</h2>
+            <p class="accordion__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <img class="accordion__image" src="images/s2.jpg" alt="" />
+          <div class="accordion__overlay">
+            <h2 class="accordion__title">technology</h2>
+            <p class="accordion__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <img class="accordion__image" src="images/s3.jpg" alt="" />
+          <div class="accordion__overlay">
+            <h2 class="accordion__title">saiphia dus</h2>
+            <p class="accordion__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              hendrerit nisi sed sollicitudin pellentesque.
+            </p>
+          </div>
+        </li>
+      </ul> -->
+    </section>
 
-      <!-- Gallery Section -->
+    <!-- End Gallery Section -->
 
-      <section class="gallery-section">
-        <div class="sec-title alternate centered">
-          <div class="title">Our Gallery</div>
+    <!-- Service Section -->
+    <section class="service-section-two">
+      <div class="image-layer" style="background-image: url(images/background/1.jpg)"></div>
+      <div class="pattern-layer-one" style="background-image: url(images/background/pattern-1.png)"></div>
+      <div class="pattern-layer-two" style="background-image: url(images/background/pattern-2.png)"></div>
+      <div class="pattern-layer-three" style="background-image: url(images/background/pattern-3.png)"></div>
+      <div class="auto-container">
+        <div class="sec-title centered">
+          <div class="big-text">Services</div>
+          <div class="title">Our Awesome Services</div>
           <h2>
-            Building a more competitive <br />
-            business sectors.
+            Our Expertise Shines in Delivering Premium Services.
+
           </h2>
         </div>
-        <ul class="accordion">
-          <!-- Loop through accordionList -->
-          <!-- For each item in accordionList -->
-          <li class="accordion__item">
-            <img class="accordion__image" src="images/s1.jpg" alt="" />
-            <div class="accordion__overlay">
-              <h2 class="accordion__title">group</h2>
-              <p class="accordion__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                hendrerit nisi sed sollicitudin pellentesque.
-              </p>
-            </div>
-          </li>
-          <li class="accordion__item">
-            <img
-              class="accordion__image"
-              src="https://saiphia.com/wp-content/uploads/2020/05/factory.jpg"
-              alt=""
-            />
-            <div class="accordion__overlay">
-              <h2 class="accordion__title">casting</h2>
-              <p class="accordion__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                hendrerit nisi sed sollicitudin pellentesque.
-              </p>
-            </div>
-          </li>
-          <li class="accordion__item">
-            <img class="accordion__image" src="images/s2.jpg" alt="" />
-            <div class="accordion__overlay">
-              <h2 class="accordion__title">technology</h2>
-              <p class="accordion__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                hendrerit nisi sed sollicitudin pellentesque.
-              </p>
-            </div>
-          </li>
-          <li class="accordion__item">
-            <img class="accordion__image" src="images/s3.jpg" alt="" />
-            <div class="accordion__overlay">
-              <h2 class="accordion__title">saiphia dus</h2>
-              <p class="accordion__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                hendrerit nisi sed sollicitudin pellentesque.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <!-- End Gallery Section -->
-
-      <!-- Service Section -->
-      <section class="service-section-two">
-        <div
-          class="image-layer"
-          style="background-image: url(images/background/1.jpg)"
-        ></div>
-        <div
-          class="pattern-layer-one"
-          style="background-image: url(images/background/pattern-1.png)"
-        ></div>
-        <div
-          class="pattern-layer-two"
-          style="background-image: url(images/background/pattern-2.png)"
-        ></div>
-        <div
-          class="pattern-layer-three"
-          style="background-image: url(images/background/pattern-3.png)"
-        ></div>
-        <div class="auto-container">
-          <div class="sec-title centered">
-            <div class="big-text">Services</div>
-            <div class="title">Our Awesome Services</div>
-            <h2>
-              Building a more competitive <br />
-              business sectors.
-            </h2>
-          </div>
-          <div class="three-item-carousel owl-carousel owl-theme">
-            <!-- Service Block Two -->
-            <div class="service-block-two">
-              <div class="inner-box">
-                <div class="image">
-                  <img style="height: 310px" src="images/s1.jpg" alt="" />
-                  <div class="overlay-box">
-                    <span class="icon flaticon-drop-of-liquid"></span>
-                    <div class="content">
-                      <h5>Produact Design Assistance</h5>
-                      <div class="title">Services</div>
-                    </div>
+        <div class="three-item-carousel owl-carousel owl-theme">
+          <!-- Service Block Two -->
+          <div class="service-block-two">
+            <div class="inner-box">
+              <div class="image">
+                <img style="height: 310px" src="images/s1.jpg" alt="" />
+                <div class="overlay-box">
+                  <span class="icon flaticon-drop-of-liquid"></span>
+                  <div class="content">
+                    <h5>Produact Design Assistance</h5>
+                    <div class="title">Services</div>
                   </div>
-                  <div class="overlay-box-two">
-                    <span class="icon-two flaticon-drop-of-liquid"></span>
-                    <div class="overlay-inner">
-                      <div class="overlay-content">
-                        <h5>
-                          <a href="#">Eco & Bio Power Services</a>
-                        </h5>
-                        <div class="text">
-                          The Industrial Revolution, which took place from the
-                          18th to 19th centuries, was a period during predomic.
-                        </div>
-                        <a href="#" class="read-more"
-                          >Read more <span class="flaticon-next-3"></span
-                        ></a>
+                </div>
+                <div class="overlay-box-two">
+                  <span class="icon-two flaticon-drop-of-liquid"></span>
+                  <div class="overlay-inner">
+                    <div class="overlay-content">
+                      <h5>
+                        <a href="#">Produact Design Assistance</a>
+                      </h5>
+                      <div class="text">
+                        The parts are made as per International
+                        standards such as ASTM, AISI, BS, DIN, and JIS by monitoring every step of the
+                        manufacturing process.
+
                       </div>
+                      <!-- <a href="#" class="read-more"
+                          >Read more <span class="flaticon-next-3"></span
+                        ></a> -->
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- Service Block Two -->
-            <div class="service-block-two style-two">
-              <div class="inner-box">
-                <div class="image">
-                  <img style="height: 310px" src="images/s2.jpg" alt="" />
-                  <div class="overlay-box">
-                    <span class="icon flaticon-factory"></span>
-                    <div class="content">
-                      <h5>Sand Casting</h5>
-                      <div class="title">Services</div>
+          <div class="service-block-two">
+            <div class="inner-box">
+              <div class="image">
+                <img style="height: 310px" src="images/s1.jpg" alt="" />
+                <div class="overlay-box">
+                  <span class="icon flaticon-drop-of-liquid"></span>
+                  <div class="content">
+                    <h5>Investment Casting</h5>
+                    <div class="title">Services</div>
+                  </div>
+                </div>
+                <div class="overlay-box-two">
+                  <span class="icon-two flaticon-drop-of-liquid"></span>
+                  <div class="overlay-inner">
+                    <div class="overlay-content">
+                      <h5>
+                        <a href="#">Investment Casting</a>
+                      </h5>
+                      <div class="text">
+                        Dimensionally and geometrically accurate complex intricate design to net shape, minimizing the
+                        need for secondary machining.
+                      </div>
+
+                      <b>Investment Casting Range:</b>
+                      <br>
+                      <b>Weight</b>: 25 grams to 100 kgs per piece <br>
+                      <b>Size</b>: up to 1 m
+                      <!-- <a href="#" class="read-more"
+                          >Read more <span class="flaticon-next-3"></span
+                        ></a> -->
                     </div>
                   </div>
-                  <div class="overlay-box-two">
-                    <span class="icon-two flaticon-factory"></span>
-                    <div class="overlay-inner">
-                      <div class="overlay-content">
-                        <h5><a href="#">Invesment Casting</a></h5>
-                        <div class="text">
-                          The Industrial Revolution, which took place from the
-                          18th to 19th centuries, was a period during predomic.
-                        </div>
-                        <a href="#" class="read-more"
-                          >Read more <span class="flaticon-next-3"></span
-                        ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Block Two -->
+          <div class="service-block-two style-two">
+            <div class="inner-box">
+              <div class="image">
+                <img style="height: 310px" src="images/s2.jpg" alt="" />
+                <div class="overlay-box">
+                  <span class="icon flaticon-factory"></span>
+                  <div class="content">
+                    <h5>Sand Casting</h5>
+                    <div class="title">Services</div>
+                  </div>
+                </div>
+                <div class="overlay-box-two">
+                  <span class="icon-two flaticon-factory"></span>
+                  <div class="overlay-inner">
+                    <div class="overlay-content">
+                      <h5><a href="#">Sand Casting</a></h5>
+                      <div class="text">
+                        100 different Ferrous and Non-ferrous Alloy castings
+                        manufactured as per the specification of our customers.
                       </div>
+                      <b>Sand Casting Range:</b>
+                      <br>
+                      <b>Weight</b>: 5 kgs to 450 kgs per piece <br>
+                      <b>Size</b>: up to 1.5 m
+                      <!-- <a href="#" class="read-more"
+                          >Read more <span class="flaticon-next-3"></span
+                        ></a> -->
                     </div>
                   </div>
                 </div>
@@ -923,589 +963,518 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Service Section -->
+      </div>
+    </section>
+    <!-- End Service Section -->
 
-      <!-- Project Section -->
-      <section class="project-section">
-        <div class="auto-container">
-          <!--Product Tabs-->
-          <div class="prod-tabs tabs-box">
-            <div
-              class="gear-pattern-layer"
-              style="background-image: url(images/background/pattern-4.png)"
-            ></div>
-            <!-- Tab Btns -->
-            <div class="btns-outer">
-              <div
-                class="btns-pattern-layer"
-                style="background-image: url(images/s2.jpg)"
-              ></div>
-              <div class="title-box">
-                <h2>Our Products</h2>
-              </div>
-              <ul class="tab-btns tab-buttons clearfix">
-                <li data-tab="#prod-building" class="tab-btn active-btn">
-                  Consultancy
-                </li>
-                <li data-tab="#prod-industrial" class="tab-btn">Industrial</li>
-                <li data-tab="#prod-architecture" class="tab-btn">
-                  Engineering Services
-                </li>
-                <li data-tab="#prod-construction" class="tab-btn">
-                  Maintenance
-                </li>
-                <li data-tab="#prod-interior" class="tab-btn">
-                  Remote Services
-                </li>
-                <li data-tab="#prod-engineer" class="tab-btn">Spare Parts</li>
-              </ul>
+    <!-- Project Section -->
+    <section class="project-section">
+      <div class="auto-container">
+        <!--Product Tabs-->
+        <div class="prod-tabs tabs-box">
+          <div class="gear-pattern-layer" style="background-image: url(images/background/pattern-4.png)"></div>
+          <!-- Tab Btns -->
+          <div class="btns-outer">
+            <div class="btns-pattern-layer" style="background-image: url(images/s2.jpg)"></div>
+            <div class="title-box">
+              <h2>Our Products</h2>
             </div>
+            <ul class="tab-btns tab-buttons clearfix">
+              <li data-tab="#prod-building" class="tab-btn active-btn">
+                Consultancy
+              </li>
+              <li data-tab="#prod-industrial" class="tab-btn">Industrial</li>
+              <li data-tab="#prod-architecture" class="tab-btn">
+                Engineering Services
+              </li>
+              <li data-tab="#prod-construction" class="tab-btn">
+                Maintenance
+              </li>
+              <li data-tab="#prod-interior" class="tab-btn">
+                Remote Services
+              </li>
+              <li data-tab="#prod-engineer" class="tab-btn">Spare Parts</li>
+            </ul>
+          </div>
 
-            <!--Tabs Container-->
-            <div class="tabs-content">
-              <!-- Tab / Active Tab -->
-              <div class="tab active-tab" id="prod-building">
-                <div class="image">
-                  <img
-                    style="width: 1115px; height: 626px; object-fit: cover"
-                    src="images/s1.jpg"
-                    alt=""
-                  />
-                  <div class="content">
-                    <div
-                      class="pattern-layer"
-                      style="
+          <!--Tabs Container-->
+          <div class="tabs-content">
+            <!-- Tab / Active Tab -->
+            <div class="tab active-tab" id="prod-building">
+              <div class="image">
+                <img style="width: 1115px; height: 626px; object-fit: cover" src="images/s1.jpg" alt="" />
+                <div class="content">
+                  <div class="pattern-layer" style="
                         background-image: url(images/s1.jpg);
                         background-position: center center;
-                      "
-                    ></div>
-                    <h5>
-                      <a href="#">Saiphia Casting Of Industries</a>
-                    </h5>
-                    <div class="category">BHOPAL</div>
-                    <a class="arrow flaticon-right-arrow" href="#"></a>
-                  </div>
+                      "></div>
+                  <h5>
+                    <a href="#">Saiphia Casting Of Industries</a>
+                  </h5>
+                  <div class="category">BHOPAL</div>
+                  <a class="arrow flaticon-right-arrow" href="#"></a>
                 </div>
               </div>
+            </div>
 
-              <!-- Tab  -->
-              <div class="tab" id="prod-industrial">
-                <div class="image">
-                  <img
-                    style="width: 1115px; height: 626px; object-fit: cover"
-                    src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt=""
-                  />
-                  <div class="content">
-                    <div
-                      class="pattern-layer"
-                      style="
+            <!-- Tab  -->
+            <div class="tab" id="prod-industrial">
+              <div class="image">
+                <img style="width: 1115px; height: 626px; object-fit: cover"
+                  src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="" />
+                <div class="content">
+                  <div class="pattern-layer" style="
                         background-image: url('https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
                         background-position: center center;
-                      "
-                    ></div>
-                    <h5>
-                      <a href="#">Saiphia Casting Of Industries</a>
-                    </h5>
-                    <div class="category">BHOPAL</div>
-                    <a class="arrow flaticon-right-arrow" href="#"></a>
-                  </div>
+                      "></div>
+                  <h5>
+                    <a href="#">Saiphia Casting Of Industries</a>
+                  </h5>
+                  <div class="category">BHOPAL</div>
+                  <a class="arrow flaticon-right-arrow" href="#"></a>
                 </div>
               </div>
+            </div>
 
-              <!-- Tab  -->
-              <div class="tab" id="prod-architecture">
-                <div class="image">
-                  <img
-                    style="width: 1115px; height: 626px; object-fit: cover"
-                    src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt=""
-                  />
-                  <div class="content">
-                    <div
-                      class="pattern-layer"
-                      style="
+            <!-- Tab  -->
+            <div class="tab" id="prod-architecture">
+              <div class="image">
+                <img style="width: 1115px; height: 626px; object-fit: cover"
+                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="" />
+                <div class="content">
+                  <div class="pattern-layer" style="
                         background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
                         background-position: center center;
-                      "
-                    ></div>
-                    <h5>
-                      <a href="#">Saiphia Casting Of Industries</a>
-                    </h5>
-                    <div class="category">BHOPAL</div>
-                    <a class="arrow flaticon-right-arrow" href="#"></a>
-                  </div>
+                      "></div>
+                  <h5>
+                    <a href="#">Saiphia Casting Of Industries</a>
+                  </h5>
+                  <div class="category">BHOPAL</div>
+                  <a class="arrow flaticon-right-arrow" href="#"></a>
                 </div>
               </div>
+            </div>
 
-              <!-- Tab  -->
-              <div class="tab" id="prod-construction">
-                <div class="image">
-                  <img
-                    style="width: 1115px; height: 626px; object-fit: cover"
-                    src="https://images.unsplash.com/photo-1498631906572-66c58d46ecf7?q=80&w=2183&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt=""
-                  />
-                  <div class="content">
-                    <div
-                      class="pattern-layer"
-                      style="
+            <!-- Tab  -->
+            <div class="tab" id="prod-construction">
+              <div class="image">
+                <img style="width: 1115px; height: 626px; object-fit: cover"
+                  src="https://images.unsplash.com/photo-1498631906572-66c58d46ecf7?q=80&w=2183&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="" />
+                <div class="content">
+                  <div class="pattern-layer" style="
                         background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
                         background-position: center center;
-                      "
-                    ></div>
-                    <h5>
-                      <a href="#">Saiphia Casting Of Industries</a>
-                    </h5>
-                    <div class="category">BHOPAL</div>
-                    <a class="arrow flaticon-right-arrow" href="#"></a>
-                  </div>
+                      "></div>
+                  <h5>
+                    <a href="#">Saiphia Casting Of Industries</a>
+                  </h5>
+                  <div class="category">BHOPAL</div>
+                  <a class="arrow flaticon-right-arrow" href="#"></a>
                 </div>
               </div>
+            </div>
 
-              <!-- Tab  -->
-              <div class="tab" id="prod-interior">
-                <div class="image">
-                  <img
-                    style="width: 1115px; height: 626px; object-fit: cover"
-                    src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt=""
-                  />
-                  <div class="content">
-                    <div
-                      class="pattern-layer"
-                      style="
+            <!-- Tab  -->
+            <div class="tab" id="prod-interior">
+              <div class="image">
+                <img style="width: 1115px; height: 626px; object-fit: cover"
+                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="" />
+                <div class="content">
+                  <div class="pattern-layer" style="
                         background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
                         background-position: center center;
-                      "
-                    ></div>
-                    <h5>
-                      <a href="#">Saiphia Casting Of Industries</a>
-                    </h5>
-                    <div class="category">BHOPAL</div>
-                    <a class="arrow flaticon-right-arrow" href="#"></a>
-                  </div>
+                      "></div>
+                  <h5>
+                    <a href="#">Saiphia Casting Of Industries</a>
+                  </h5>
+                  <div class="category">BHOPAL</div>
+                  <a class="arrow flaticon-right-arrow" href="#"></a>
                 </div>
               </div>
+            </div>
 
-              <!-- Tab  -->
-              <div class="tab" id="prod-engineer">
-                <div class="image">
-                  <img
-                    style="width: 1115px; height: 626px; object-fit: cover"
-                    src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt=""
-                  />
-                  <div class="content">
-                    <div
-                      class="pattern-layer"
-                      style="
+            <!-- Tab  -->
+            <div class="tab" id="prod-engineer">
+              <div class="image">
+                <img style="width: 1115px; height: 626px; object-fit: cover"
+                  src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="" />
+                <div class="content">
+                  <div class="pattern-layer" style="
                         background-image: url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
                         background-position: center center;
-                      "
-                    ></div>
-                    <h5>
-                      <a href="#">Saiphia Casting Of Industries</a>
-                    </h5>
-                    <div class="category">BHOPAL</div>
-                    <a class="arrow flaticon-right-arrow" href="#"></a>
-                  </div>
+                      "></div>
+                  <h5>
+                    <a href="#">Saiphia Casting Of Industries</a>
+                  </h5>
+                  <div class="category">BHOPAL</div>
+                  <a class="arrow flaticon-right-arrow" href="#"></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Project Section -->
+      </div>
+    </section>
+    <!-- End Project Section -->
 
-      <!-- Testimonial Section Three -->
-      <section
-        class="testimonial-section-three"
-        style="background-image: url(images/background/map.png)"
-      >
-        <div class="auto-container">
-          <!-- Sec Title -->
-          <div class="sec-title alternate centered">
-            <div class="title">Our Testimonial</div>
-            <h2>
-              Happy Client Says <br />
-              About Us
-            </h2>
-          </div>
-          <div class="three-item-carousel-two owl-carousel owl-theme">
-            <!-- Testimonial Block Two -->
-            <div class="testimonial-block-two">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="author-inner">
-                    <div class="author-image">
-                      <img src="images/resource/author-6.jpg" alt="" />
-                    </div>
-                    <strong>Jeffery Marshall</strong>
-                    <div class="designation">Founder & Ceo</div>
-                  </div>
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore Risus
-                  facilisis.
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Block Two -->
-            <div class="testimonial-block-two">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="author-inner">
-                    <div class="author-image">
-                      <img src="images/resource/author-6.jpg" alt="" />
-                    </div>
-                    <strong>Jeffery Marshall</strong>
-                    <div class="designation">Founder & Ceo</div>
-                  </div>
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore Risus
-                  facilisis.
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Block Two -->
-            <div class="testimonial-block-two">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="author-inner">
-                    <div class="author-image">
-                      <img src="images/resource/author-6.jpg" alt="" />
-                    </div>
-                    <strong>Jeffery Marshall</strong>
-                    <div class="designation">Founder & Ceo</div>
-                  </div>
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore Risus
-                  facilisis.
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Block Two -->
-            <div class="testimonial-block-two">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="author-inner">
-                    <div class="author-image">
-                      <img src="images/resource/author-6.jpg" alt="" />
-                    </div>
-                    <strong>Jeffery Marshall</strong>
-                    <div class="designation">Founder & Ceo</div>
-                  </div>
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore Risus
-                  facilisis.
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Block Two -->
-            <div class="testimonial-block-two">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="author-inner">
-                    <div class="author-image">
-                      <img src="images/resource/author-6.jpg" alt="" />
-                    </div>
-                    <strong>Jeffery Marshall</strong>
-                    <div class="designation">Founder & Ceo</div>
-                  </div>
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore Risus
-                  facilisis.
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Block Two -->
-            <div class="testimonial-block-two">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="author-inner">
-                    <div class="author-image">
-                      <img src="images/resource/author-6.jpg" alt="" />
-                    </div>
-                    <strong>Jeffery Marshall</strong>
-                    <div class="designation">Founder & Ceo</div>
-                  </div>
-                </div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore Risus
-                  facilisis.
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonial Section Three -->
-
-      <!-- Clients Section -->
-
-      <section class="client-section">
+    <!-- Testimonial Section Three -->
+    <section class="testimonial-section-three" style="background-image: url(images/background/map.png)">
+      <div class="auto-container">
+        <!-- Sec Title -->
         <div class="sec-title alternate centered">
-          <div class="title">Our Clients</div>
-          <h2>Happy Client</h2>
-        </div>
-        <div class="animimgCon">
-          <div class="img-container">
-            <img src="./images//cimg1.png" class="img" alt="Company Image 1" />
-            <img src="./images/cimg2.png" class="img" alt="Company Image 2" />
-            <img src="./images/cimg3.png" class="img" alt="Company Image 3" />
-            <img src="./images/cimg4.png" class="img" alt="Company Image 4" />
-            <img src="./images/cimg5.png" class="img" alt="Company Image 5" />
-            <img src="./images/cimg6.png" class="img" alt="Company Image 6" />
-            <img src="./images/cimg7.png" class="img" alt="Company Image 7" />
-            <img src="./images/cimg8.png" class="img" alt="Company Image 8" />
-
-            <img src="./images//cimg1.png" class="img" alt="Company Image 1" />
-            <img src="./images/cimg2.png" class="img" alt="Company Image 2" />
-            <img src="./images/cimg3.png" class="img" alt="Company Image 3" />
-            <img src="./images/cimg4.png" class="img" alt="Company Image 4" />
-            <img src="./images/cimg5.png" class="img" alt="Company Image 5" />
-            <img src="./images/cimg6.png" class="img" alt="Company Image 6" />
-            <img src="./images/cimg7.png" class="img" alt="Company Image 7" />
-            <img src="./images/cimg8.png" class="img" alt="Company Image 8" />
-
-            <img src="./images//cimg1.png" class="img" alt="Company Image 1" />
-            <img src="./images/cimg2.png" class="img" alt="Company Image 2" />
-            <img src="./images/cimg3.png" class="img" alt="Company Image 3" />
-            <img src="./images/cimg4.png" class="img" alt="Company Image 4" />
-            <img src="./images/cimg5.png" class="img" alt="Company Image 5" />
-            <img src="./images/cimg6.png" class="img" alt="Company Image 6" />
-            <img src="./images/cimg7.png" class="img" alt="Company Image 7" />
-            <img src="./images/cimg8.png" class="img" alt="Company Image 8" />
-          </div>
-        </div>
-      </section>
-
-      <!-- End Client Section -->
-
-      <!-- CTA Section -->
-      <section class="cta-section" style="background-image: url(images/s1.jpg)">
-        <div class="gradient-layer"></div>
-        <div
-          class="pattern-layer"
-          style="background-image: url(images/background/pattern-9.png)"
-        ></div>
-        <div
-          class="pattern-layer-two"
-          style="background-image: url(images/background/pattern-10.png)"
-        ></div>
-        <div class="auto-container">
-          <div class="icon">
-            <!-- <img src="images/icons/cta-logo.png" alt="" /> -->
-          </div>
+          <div class="title">Our Testimonial</div>
           <h2>
-            Contact to Expertise in the <br />
-            manufacturing industry
+            Happy Client Says <br />
+            About Us
           </h2>
-          <div class="button-box text-center">
-            <a class="btn-style-one theme-btn" href="#"
-              ><span class="txt"
-                >Contact us <i class="arrow fa fa-angle-right"></i></span
-            ></a>
+        </div>
+        <div class="three-item-carousel-two owl-carousel owl-theme">
+          <!-- Testimonial Block Two -->
+          <div class="testimonial-block-two">
+            <div class="inner-box">
+              <div class="author-box">
+                <div class="author-inner">
+                  <div class="author-image">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </div>
+                  <strong>Jeffery Marshall</strong>
+                  <div class="designation">Founder & Ceo</div>
+                </div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore Risus
+                facilisis.
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Block Two -->
+          <div class="testimonial-block-two">
+            <div class="inner-box">
+              <div class="author-box">
+                <div class="author-inner">
+                  <div class="author-image">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </div>
+                  <strong>Jeffery Marshall</strong>
+                  <div class="designation">Founder & Ceo</div>
+                </div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore Risus
+                facilisis.
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Block Two -->
+          <div class="testimonial-block-two">
+            <div class="inner-box">
+              <div class="author-box">
+                <div class="author-inner">
+                  <div class="author-image">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </div>
+                  <strong>Jeffery Marshall</strong>
+                  <div class="designation">Founder & Ceo</div>
+                </div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore Risus
+                facilisis.
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Block Two -->
+          <div class="testimonial-block-two">
+            <div class="inner-box">
+              <div class="author-box">
+                <div class="author-inner">
+                  <div class="author-image">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </div>
+                  <strong>Jeffery Marshall</strong>
+                  <div class="designation">Founder & Ceo</div>
+                </div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore Risus
+                facilisis.
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Block Two -->
+          <div class="testimonial-block-two">
+            <div class="inner-box">
+              <div class="author-box">
+                <div class="author-inner">
+                  <div class="author-image">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </div>
+                  <strong>Jeffery Marshall</strong>
+                  <div class="designation">Founder & Ceo</div>
+                </div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore Risus
+                facilisis.
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Block Two -->
+          <div class="testimonial-block-two">
+            <div class="inner-box">
+              <div class="author-box">
+                <div class="author-inner">
+                  <div class="author-image">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </div>
+                  <strong>Jeffery Marshall</strong>
+                  <div class="designation">Founder & Ceo</div>
+                </div>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore Risus
+                facilisis.
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <!-- End CTA Section -->
+      </div>
+    </section>
+    <!-- End Testimonial Section Three -->
 
-      <!-- Footer Style Two -->
-      <footer
-        class="main-footer"
-        style="background-image: url(images/background/pattern-12.png)"
-      >
-        <div class="auto-container">
-          <!-- Widgets Section -->
-          <div class="widgets-section">
-            <div class="row clearfix">
-              <!-- Big Column -->
-              <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                <div class="row clearfix">
-                  <!-- Footer Column -->
-                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                    <div class="footer-widget logo-widget">
-                      <div class="logo">
-                        <!-- <a href="index.html"
+    <!-- Clients Section -->
+
+    <section class="client-section">
+      <div class="sec-title alternate centered">
+        <div class="title">Our Clients</div>
+        <h2>Happy Client</h2>
+      </div>
+      <div class="animimgCon">
+        <div class="img-container">
+          <img src="./images//cimg1.png" class="img" alt="Company Image 1" />
+          <img src="./images/cimg2.png" class="img" alt="Company Image 2" />
+          <img src="./images/cimg3.png" class="img" alt="Company Image 3" />
+          <img src="./images/cimg4.png" class="img" alt="Company Image 4" />
+          <img src="./images/cimg5.png" class="img" alt="Company Image 5" />
+          <img src="./images/cimg6.png" class="img" alt="Company Image 6" />
+          <img src="./images/cimg7.png" class="img" alt="Company Image 7" />
+          <img src="./images/cimg8.png" class="img" alt="Company Image 8" />
+
+          <img src="./images//cimg1.png" class="img" alt="Company Image 1" />
+          <img src="./images/cimg2.png" class="img" alt="Company Image 2" />
+          <img src="./images/cimg3.png" class="img" alt="Company Image 3" />
+          <img src="./images/cimg4.png" class="img" alt="Company Image 4" />
+          <img src="./images/cimg5.png" class="img" alt="Company Image 5" />
+          <img src="./images/cimg6.png" class="img" alt="Company Image 6" />
+          <img src="./images/cimg7.png" class="img" alt="Company Image 7" />
+          <img src="./images/cimg8.png" class="img" alt="Company Image 8" />
+
+          <img src="./images//cimg1.png" class="img" alt="Company Image 1" />
+          <img src="./images/cimg2.png" class="img" alt="Company Image 2" />
+          <img src="./images/cimg3.png" class="img" alt="Company Image 3" />
+          <img src="./images/cimg4.png" class="img" alt="Company Image 4" />
+          <img src="./images/cimg5.png" class="img" alt="Company Image 5" />
+          <img src="./images/cimg6.png" class="img" alt="Company Image 6" />
+          <img src="./images/cimg7.png" class="img" alt="Company Image 7" />
+          <img src="./images/cimg8.png" class="img" alt="Company Image 8" />
+        </div>
+      </div>
+    </section>
+
+    <!-- End Client Section -->
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="background-image: url(images/s1.jpg)">
+      <div class="gradient-layer"></div>
+      <div class="pattern-layer" style="background-image: url(images/background/pattern-9.png)"></div>
+      <div class="pattern-layer-two" style="background-image: url(images/background/pattern-10.png)"></div>
+      <div class="auto-container">
+        <div class="icon">
+          <!-- <img src="images/icons/cta-logo.png" alt="" /> -->
+        </div>
+        <h2>
+          Contact to Expertise in the <br />
+          manufacturing industry
+        </h2>
+        <div class="button-box text-center">
+          <a class="btn-style-one theme-btn" href="#"><span class="txt">Contact us <i
+                class="arrow fa fa-angle-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+    <!-- End CTA Section -->
+
+    <!-- Footer Style Two -->
+    <footer class="main-footer" style="background-image: url(images/background/pattern-12.png)">
+      <div class="auto-container">
+        <!-- Widgets Section -->
+        <div class="widgets-section">
+          <div class="row clearfix">
+            <!-- Big Column -->
+            <div class="big-column col-lg-6 col-md-12 col-sm-12">
+              <div class="row clearfix">
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                  <div class="footer-widget logo-widget">
+                    <div class="logo">
+                      <!-- <a href="index.html"
                           ><img src="images/footer-logo.png" alt=""
                         /></a> -->
-                      </div>
-                      <div class="text">
-                        We work with a passion of taking challenges and creating
-                        new ones in advertising sector.
-                      </div>
-                      <a href="about.html" class="theme-btn about-btn"
-                        >About us</a
-                      >
                     </div>
-                  </div>
-
-                  <!-- Footer Column -->
-                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                    <div class="footer-widget newsletter-widget">
-                      <h4>Newsletter</h4>
-                      <div class="text">
-                        Subscribe our newsletter to get our latest update & news
-                      </div>
-
-                      <!-- Email Box -->
-                      <div class="email-box">
-                        <form method="post" action="#">
-                          <div class="form-group">
-                            <input
-                              type="email"
-                              name="search-field"
-                              value=""
-                              placeholder="Your mail address"
-                              required
-                            />
-                            <button type="submit">
-                              <span class="icon flaticon-send"></span>
-                            </button>
-                          </div>
-                        </form>
-                      </div>
-
-                      <!-- Social Box -->
-                      <ul class="social-box">
-                        <li><a href="#" class="fa fa-facebook-f"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-dribbble"></a></li>
-                        <li><a href="#" class="fa fa-behance"></a></li>
-                      </ul>
-                      <!-- End Social Box -->
+                    <div class="text">
+                      Turning Ideas into Quality Products: Expert Casting and Design Support. We mold your vision with
+                      precision, offering top-notch results through sand casting, investment casting, and attentive
+                      guidance.
                     </div>
+                    <a href="about.html" class="theme-btn about-btn">About us</a>
                   </div>
                 </div>
-              </div>
 
-              <!-- Big Column -->
-              <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                <div class="row clearfix">
-                  <!-- Footer Column -->
-                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                    <div class="footer-widget contact-widget">
-                      <h4>Official info:</h4>
-                      <ul class="contact-list">
-                        <li>
-                          <span class="icon fa fa-phone"></span> Bhopal MP
-                        </li>
-                        <li>
-                          <span class="icon fa fa-envelope"></span>
-                          +9184351 19144
-                        </li>
-                      </ul>
-                      <div class="timing">
-                        <strong>Open Hours: </strong>
-                        Mon - Sat: 8 am - 5 pm, <br />
-                        Sunday: CLOSED
-                      </div>
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                  <div class="footer-widget newsletter-widget">
+                    <h4>Newsletter</h4>
+                    <div class="text">
+                      Subscribe our newsletter to get our latest update & news
                     </div>
-                  </div>
 
-                  <!-- Footer Column -->
-                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                    <div class="footer-widget instagram-widget">
-                      <h4>instagram</h4>
-                      <div class="widget-content">
-                        <div class="images-outer clearfix">
-                          <!--Image Box-->
-                          <figure class="image-box">
-                            <a class="lightbox-image" href="images/s1.jpg"
-                              ><img src="images/s1.jpg" alt=""
-                            /></a>
-                          </figure>
-                          <!--Image Box-->
-                          <figure class="image-box">
-                            <a class="lightbox-image" href="images/s2.jpg"
-                              ><img src="images/s2.jpg" alt=""
-                            /></a>
-                          </figure>
-                          <!--Image Box-->
-                          <figure class="image-box">
-                            <a class="lightbox-image" href="images/s3.jpg"
-                              ><img src="images/s3.jpg" alt=""
-                            /></a>
-                          </figure>
-                          <!--Image Box-->
-                          <figure class="image-box">
-                            <a class="lightbox-image" href="images/s1.jpg"
-                              ><img src="images/s1.jpg" alt=""
-                            /></a>
-                          </figure>
-                          <!--Image Box-->
-                          <figure class="image-box">
-                            <a class="lightbox-image" href="images/s2.jpg"
-                              ><img src="images/s2.jpg" alt=""
-                            /></a>
-                          </figure>
-                          <!--Image Box-->
-                          <figure class="image-box">
-                            <a class="lightbox-image" href="images/s2.jpg"
-                              ><img src="images/s2.jpg" alt=""
-                            /></a>
-                          </figure>
+                    <!-- Email Box -->
+                    <div class="email-box">
+                      <form method="post" action="#">
+                        <div class="form-group">
+                          <input type="email" name="search-field" value="" placeholder="Your mail address" required />
+                          <button type="submit">
+                            <span class="icon flaticon-send"></span>
+                          </button>
                         </div>
+                      </form>
+                    </div>
+
+                    <!-- Social Box -->
+                    <ul class="social-box">
+                      <li><a href="#" class="fa fa-facebook-f"></a></li>
+                      <li><a href="#" class="fa fa-twitter"></a></li>
+                      <li><a href="#" class="fa fa-dribbble"></a></li>
+                      <li><a href="#" class="fa fa-behance"></a></li>
+                    </ul>
+                    <!-- End Social Box -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Big Column -->
+            <div class="big-column col-lg-6 col-md-12 col-sm-12">
+              <div class="row clearfix">
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                  <div class="footer-widget contact-widget">
+                    <h4>Official info:</h4>
+                    <ul class="contact-list">
+                      <li>
+                        <span class="icon fa fa-phone"></span> Bhopal MP
+                      </li>
+                      <li>
+                        <span class="icon fa fa-envelope"></span>
+                        +9184351 19144
+                      </li>
+                    </ul>
+                    <div class="timing">
+                      <strong>Open Hours: </strong>
+                      Mon - Sat: 8 am - 5 pm, <br />
+                      Sunday: CLOSED
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                  <div class="footer-widget instagram-widget">
+                    <h4>instagram</h4>
+                    <div class="widget-content">
+                      <div class="images-outer clearfix">
+                        <!--Image Box-->
+                        <figure class="image-box">
+                          <a class="lightbox-image" href="images/s1.jpg"><img src="images/s1.jpg" alt="" /></a>
+                        </figure>
+                        <!--Image Box-->
+                        <figure class="image-box">
+                          <a class="lightbox-image" href="images/s2.jpg"><img src="images/s2.jpg" alt="" /></a>
+                        </figure>
+                        <!--Image Box-->
+                        <figure class="image-box">
+                          <a class="lightbox-image" href="images/s3.jpg"><img src="images/s3.jpg" alt="" /></a>
+                        </figure>
+                        <!--Image Box-->
+                        <figure class="image-box">
+                          <a class="lightbox-image" href="images/s1.jpg"><img src="images/s1.jpg" alt="" /></a>
+                        </figure>
+                        <!--Image Box-->
+                        <figure class="image-box">
+                          <a class="lightbox-image" href="images/s2.jpg"><img src="images/s2.jpg" alt="" /></a>
+                        </figure>
+                        <!--Image Box-->
+                        <figure class="image-box">
+                          <a class="lightbox-image" href="images/s2.jpg"><img src="images/s2.jpg" alt="" /></a>
+                        </figure>
                       </div>
                     </div>
                   </div>
@@ -1513,61 +1482,57 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="footer-bottom">
-            <div class="copyright">
-              &copy; 2024 Saiphia - All rights reserved.
-              <a href="#">Akshay Dangi</a>
-            </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            &copy; 2024 Saiphia - All rights reserved.
+            <a href="#">Akshay Dangi</a>
           </div>
         </div>
-      </footer>
-    </div>
-    <!--End pagewrapper-->
+      </div>
+    </footer>
+  </div>
+  <!--End pagewrapper-->
 
-    <!-- Search Popup -->
-    <div class="search-popup">
-      <button class="close-search style-two">
-        <span class="fa fa-remove"></span>
-      </button>
-      <button class="close-search"><span class="fa fa-arrow-up"></span></button>
-      <form method="post" action="#">
-        <div class="form-group">
-          <input
-            type="search"
-            name="search-field"
-            value=""
-            placeholder="Search Here"
-            required=""
-          />
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-      </form>
-    </div>
-    <!-- End Header Search -->
+  <!-- Search Popup -->
+  <div class="search-popup">
+    <button class="close-search style-two">
+      <span class="fa fa-remove"></span>
+    </button>
+    <button class="close-search"><span class="fa fa-arrow-up"></span></button>
+    <form method="post" action="#">
+      <div class="form-group">
+        <input type="search" name="search-field" value="" placeholder="Search Here" required="" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </form>
+  </div>
+  <!-- End Header Search -->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/appear.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/tilt.jquery.min.js"></script>
-    <script src="js/jquery.paroller.min.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/odometer.js"></script>
-    <script src="js/backToTop.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/cursor-script.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/magnific-popup.min.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/tilt.jquery.min.js"></script>
+  <script src="js/jquery.paroller.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/odometer.js"></script>
+  <script src="js/backToTop.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/cursor-script.js"></script>
+  <script src="js/script.js"></script>
 
-    <!--[if lt IE 9
+  <!--[if lt IE 9
       ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
     ><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-  </body>
+  <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
 </html>
